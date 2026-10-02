@@ -15,6 +15,20 @@
 行动:寻找确定的库.
 ```
 ```call 网页搜索:google:image rust 
-阅读 https://docs.rs/image/latest/image/
+阅读 https://docs.rs/image/latest/image/ 记为 image_crate
 阅读 https://crates.io/crates/image
+```
+```动作 总结:image_crate
+[这个 crate 提供了图像编码和解码的 Rust 原生实现，以及一些基本的图像处理函数。更多文档目前也可以在 README.md 文件中找到，该文件在 GitHub 上查看最为便捷。
+
+该库旨在解决两个核心问题：统一的图像编码接口和用于存储图像内容的简单通用缓冲区。用户可以单独使用其中任何一个功能。该库专注于提供一套精简且稳定的常用操作，并可通过其他专用库进行补充。此外，该库也倾向于采用依赖项少且安全的方案。
+] => [一个图片处理库]
+
+```
+``` call 网页查看:https://github.com/image-rs/image
+Readme 都是很不错的示例
+```
+```动作
+动作 复制:readme.md
+动作 新建文件夹: image
 ```
